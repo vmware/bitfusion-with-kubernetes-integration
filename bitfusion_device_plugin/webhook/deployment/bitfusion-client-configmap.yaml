@@ -9,7 +9,7 @@ data:
       - BitfusionVersion: "250"
         OSVersion: ubuntu18
         BinaryPath: /bitfusion/bitfusion-client-ubuntu1804_2.5.1-13/usr/bin/bitfusion
-        EnvVariable: /bitfusion/bitfusion-client-ubuntu1804_2.5.1-13/opt/bitfusion/lib/x86_64-linux-gnu/lib/:$LD_LIBRARY_PATH
+        EnvVariable: /bitfusion/bitfusion-client-ubuntu1804_2.5.1-13/opt/bitfusion/lib/x86_64-linux-gnu/bitfusion/lib/:$LD_LIBRARY_PATH
       - BitfusionVersion: "250"
         OSVersion: ubuntu20
         BinaryPath: /bitfusion/bitfusion-client-ubuntu2004_2.5.1-13/usr/bin/bitfusion
@@ -22,3 +22,19 @@ data:
         OSVersion: centos8
         BinaryPath: /bitfusion/bitfusion-client-centos8-2.5.1-13/usr/bin/bitfusion
         EnvVariable: /bitfusion/bitfusion-client-centos8-2.5.1-13/opt/bitfusion/2.5.1-3ddd3278/x86_64-linux-gnu/lib:$LD_LIBRARY_PATH
+      - BitfusionVersion: "350"
+        OSVersion: ubuntu18
+        BinaryPath: /bitfusion/bitfusion-client-ubuntu1804_3.5.0-5/usr/bin/bitfusion
+        EnvVariable: /bitfusion/bitfusion-client-ubuntu1804_3.5.0-5/opt/bitfusion/lib/x86_64-linux-gnu/bitfusion/lib/:$LD_LIBRARY_PATH
+      - BitfusionVersion: "350"
+        OSVersion: ubuntu20
+        BinaryPath: /bitfusion/bitfusion-client-ubuntu2004_3.5.0-5/usr/bin/bitfusion
+        EnvVariable: /bitfusion/bitfusion-client-ubuntu2004_3.5.0-5/opt/bitfusion/lib/x86_64-linux-gnu/bitfusion/lib/:$LD_LIBRARY_PATH
+      - BitfusionVersion: "350"
+        OSVersion: centos7
+        BinaryPath: /bitfusion/bitfusion-client-centos7_3.5.0-5/usr/bin/bitfusion
+        EnvVariable: /bitfusion/bitfusion-client-centos7_3.5.0-5/opt/bitfusion/3.5.0-5a1f0119/x86_64-linux-gnu/lib/:$LD_LIBRARY_PATH
+      - BitfusionVersion: "350"
+        OSVersion: centos8
+        BinaryPath: /bitfusion/bitfusion-client-centos8_3.5.0-5/usr/bin/bitfusion
+        EnvVariable: /bitfusion/bitfusion-client-centos8_3.5.0-5/opt/bitfusion/3.5.0-5a1f0119/x86_64-linux-gnu/lib:$LD_LIBRARY_PATH
