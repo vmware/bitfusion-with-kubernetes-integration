@@ -155,6 +155,8 @@ func (whsvr *WebhookServer) Serve(w http.ResponseWriter, r *http.Request) {
 		admissionReview.Response = admissionResponse
 		if ar.Request != nil {
 			admissionReview.Response.UID = ar.Request.UID
+			admissionReview.Kind = ar.Kind
+			admissionReview.APIVersion = ar.APIVersion
 		}
 	}
 
